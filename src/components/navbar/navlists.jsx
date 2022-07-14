@@ -7,9 +7,9 @@ const NavLists = () => {
      
       <ul>
         <Link smooth style={{ color: 'inherit', textDecoration: 'inherit'}} to="#aboutme"><li>ABOUT</li></Link>
-        <li>PROJECTS</li>
-        <li>SKILLS</li>
-        <li>CONTACT</li>
+        <Link smooth style={{ color: 'inherit', textDecoration: 'inherit'}} to="#projects"><li>PROJECTS</li></Link>
+        <Link smooth style={{ color: 'inherit', textDecoration: 'inherit'}} to="#skills"><li>SKILLS</li></Link>
+        <Link smooth style={{ color: 'inherit', textDecoration: 'inherit'}} to="#contact"><li>CONTACT</li></Link>
       </ul>
       
     </>

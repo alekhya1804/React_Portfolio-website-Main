@@ -1,0 +1,13 @@
+.project{
+  height: 100vh;
+  background: rgb(33, 33, 33);
+ padding-top: 60px;
+}
+
+.title{
+  color: rgb(20, 255, 236);
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 15rem;
+  text-decoration: underline; 
+}
