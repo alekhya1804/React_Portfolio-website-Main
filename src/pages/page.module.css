@@ -1,0 +1,4 @@
+.wholePage{
+  display: flex;
+  flex-direction: column;
+}

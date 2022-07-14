@@ -1,0 +1,83 @@
+.homepage{
+  display: flex;
+  flex-direction: column;
+ 
+/*   padding: 5rem 0rem 0rem 15rem; */
+  margin-top: 60px;
+  height: 100vh;
+  width: 100%;
+  background: rgb(33, 33, 33);
+}
+
+.myname{
+  color:rgb(20, 255, 236);
+  font-size: 70px;
+  font-weight: 700;
+  margin:10rem 0rem 0rem 0rem;
+  animation-name: dynamic;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+@keyframes dynamic{
+  from{
+    margin-left: -50rem;
+  }
+  to{
+    margin-left: 15rem;
+  }
+}
+
+.paragraph{
+  color: rgba(255,255,255,0.7);
+  font-size: 25px;
+  font-weight: 700;
+  margin:2rem 0rem 0rem 15rem;
+  animation-name: dynamic;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-in;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  margin:3rem 0rem 0rem 15rem;
+   animation-name: dynamic;
+  animation-duration: 2s;
+  animation-fill-mode: forwards; 
+  animation-timing-function: ease-in;
+}
+
+.btn1{
+  padding: 10px 25px;
+  margin-right: 2rem;
+  color: rgba(255,255,255,0.9);
+  background: rgb(13, 115, 119);
+  font-weight: 700;
+  font-size: 16px; 
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn1:hover{
+  transform: scale(1.1);
+}
+
+.btn2{
+  padding: 10px 25px;
+  margin-right: 2rem;
+  color: rgb(33, 33, 33);
+  background: rgb(20, 255, 236);
+  font-weight: 700;
+  font-size: 16px; 
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn2:hover{
+  transform: scale(1.1);
+}
