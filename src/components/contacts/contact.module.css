@@ -1,0 +1,172 @@
+.contact{
+  height: 100%;
+  padding-top: 60px;
+  margin-bottom: 2rem;
+}
+
+.title{
+  color: rgb(20, 255, 236);
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 5rem;
+  text-decoration: underline; 
+}
+
+.content{
+  display: flex;
+/*   align-items: center; */
+  margin-top: 4rem;
+  
+/*   justify-content: center; */
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 5rem;
+  margin-top: 1.5rem;
+}
+
+.inputs{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.inputs2{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  outline: none;
+  width: 15rem;
+  height: 3rem;
+  margin-right: 2rem;
+  padding-left: 1rem;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+  border: none;
+  background: rgb(13, 115, 119);
+  width: 15rem;
+height: 4rem;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(255,255,255,.8);
+  cursor: pointer;
+}
+
+textarea{
+  outline: none;
+  height: 10rem;
+  width: 32.5rem;
+  padding: 1rem;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.mailto{
+  flex: 1;
+  margin-left: 4rem;
+}
+
+.maillink{
+  color: rgb(20, 255, 236);
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.mailhead{
+  color: rgba(255,255,255,.8);
+  font-size: 25px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.icons{
+/*   margin-top: 4rem; */
+  display: flex;
+  align-items: center;
+}
+
+.linkicon{
+  margin-right: 2rem;
+}
+
+.linkicon:hover{
+  transform: scale(1.2);
+}
+
+.errorpara{
+  font-weight: 700;
+  font-size: 20px;
+color: rgb(33, 33, 33);
+  background: rgb(20, 255, 236);
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 32.5rem;
+}
+
+.iconsend{
+  margin-left: 10px;
+  
+}
+
+.btn:hover .iconsend{
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px){
+  .content{
+    flex-direction: column;
+  }
+  .mailto{
+    margin-top: 4rem;
+    margin-left: 5rem;
+  }
+}
+
+@media (max-width: 425px){
+  textarea{
+    width: 14.3rem;
+  }
+  .title{
+    font-size: 24px;
+    margin-left: 2rem;
+  }
+  .btn{
+    width: 10rem;
+  }
+  .mailhead{
+    font-size: 18px;
+  }
+  .maillink{
+    font-size: 16px;
+  }
+  .linkicon{
+    
+  }
+}
+
+@media (max-width: 375px){
+  .mailto{
+    margin-left: 2rem;
+  }
+  form{
+    margin-left: 2rem;
+  }
+  textarea{
+    width: 12.9rem;
+  }
+}

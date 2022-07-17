@@ -1,0 +1,42 @@
+.skills{
+  height: 100%;
+  background: rgb(33, 33, 33);
+  padding-top: 100px;
+
+}
+
+.title{
+  color: rgb(20, 255, 236);
+  font-weight: 700;
+  font-size: 26px;
+  margin-left: 5rem;
+  text-decoration: underline; 
+}
+
+.lists{
+  margin: 4rem 0rem 0rem 5rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8rem;
+}
+
+.list{
+  color: rgba(255,255,255,.8);
+  margin-bottom: 2rem;
+  font-size: 20px;
+  font-weight: 700;
+  list-style: none;
+}
+
+@media (max-width: 425px){
+    .title{
+      margin-left: 2rem;
+      font-size: 20px;
+    }
+  .lists{
+    margin-left: 2rem;
+  }
+  .list{
+    font-size: 14px;
+  }
+}

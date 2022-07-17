@@ -1,4 +1,5 @@
 .wholePage{
   display: flex;
   flex-direction: column;
+  background: rgb(33, 33, 33);
 }

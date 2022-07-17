@@ -1,6 +1,11 @@
 .navbar{
 /*   padding: 0px 20px; */
-  background: rgba(33, 33, 33, 1);
+/*   background: rgba(33, 33, 33, 1); */
+background: rgba( 33, 33, 33, 0.85 );
+/* box-shadow: 0 5px 1px 0 rgba(20, 255, 236, .5); */
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 0px );
+
   position: fixed;
   top: 0;
   width: 100%;
@@ -9,7 +14,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  
+  z-index: 20;
 }
 
 .logo{
@@ -22,10 +27,10 @@
 .navLinks{
   flex: 2;
   margin-right: 40px;
-  ;
+  
 }
 
-ul{
+.lists{
   display: flex;
   align-items: center;
 /*   justify-content: space-evenly; */
@@ -35,7 +40,26 @@ ul{
   font-Weight: 700;
 }
 
-li{
+.mobilelists{
+  position: fixed;
+  margin-top: 320px;
+  color: rgb(20, 255, 236);
+  font-size: 14px;
+  font-Weight: 700;
+  width: 100%;
+  height: 100%;
+  padding: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba( 33, 33, 33, 0.85 );
+/* box-shadow: 0 5px 1px 0 rgba(20, 255, 236, .5); */
+backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 0px );
+}
+
+.list{
   list-style: none;
   margin-left: 80px;
   transition: all 1s ease-in-out .1s;
@@ -43,7 +67,30 @@ li{
 
 }
 
-li:hover{
+.list:hover{
   border-bottom: 1px solid rgb(13, 115, 119);
   color: rgb(13, 115, 119);
+}
+
+.hamburger{
+  display: none;
+}
+
+@media (max-width: 425px){
+  .lists{
+  display: none;
+  }
+  .list{
+    margin-left: 0px;
+    padding-top: 2rem;
+  }
+  .navbar{
+  justify-content: center;
+  }
+}
+
+@media (max-width: 425px){
+  .hamburger{
+    display: block;
+  }
 }

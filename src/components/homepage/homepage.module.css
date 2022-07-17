@@ -1,10 +1,11 @@
 .homepage{
   display: flex;
   flex-direction: column;
- 
+  align-items: center;
+  justify-content: center;
 /*   padding: 5rem 0rem 0rem 15rem; */
-  margin-top: 60px;
-  height: 100vh;
+/*   margin-top: 60px; */
+  height: 100%;
   width: 100%;
   background: rgb(33, 33, 33);
 }
@@ -14,10 +15,10 @@
   font-size: 70px;
   font-weight: 700;
   margin:10rem 0rem 0rem 0rem;
-  animation-name: dynamic;
+/*   animation-name: dynamic;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in; */
 }
 
 @keyframes dynamic{
@@ -25,7 +26,7 @@
     margin-left: -50rem;
   }
   to{
-    margin-left: 15rem;
+    margin-left: 0rem;
   }
 }
 
@@ -33,21 +34,38 @@
   color: rgba(255,255,255,0.7);
   font-size: 25px;
   font-weight: 700;
-  margin:2rem 0rem 0rem 15rem;
-  animation-name: dynamic;
+  margin:2rem 0rem 0rem 0rem;
+/*   animation-name: dynamic;
   animation-duration: 2s;
   animation-fill-mode: forwards;
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in; */
+  width: 22ch;
+  animation: typing 3s steps(18), blink .5s step-end infinite alternate;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid;
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+
+@keyframes blink{
+  50%{
+    border-color: transparent;
+  }
 }
 
 .btn{
   display: flex;
   align-items: center;
-  margin:3rem 0rem 0rem 15rem;
-   animation-name: dynamic;
+  margin:3rem 0rem 10rem 0rem;
+/*    animation-name: dynamic;
   animation-duration: 2s;
   animation-fill-mode: forwards; 
-  animation-timing-function: ease-in;
+  animation-timing-function: ease-in; */
 }
 
 .btn1{
@@ -80,4 +98,26 @@
 
 .btn2:hover{
   transform: scale(1.1);
+}
+
+@media (max-width:425px){
+  .myname{
+    font-size: 40px;
+  }
+  .paragraph{
+    font-size: 18px;
+  }
+  .btn{
+flex-direction: column;
+    justify-content: center;
+align-items: center;
+  }
+  .btn1{
+    font-size: 14px;
+    margin-bottom: 2rem;
+  }
+  .btn2{
+    font-size: 14px;
+    
+  }
 }
