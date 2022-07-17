@@ -10,7 +10,7 @@ const AboutMe = () => {
         <h1 className={styles.titlehead}>About Me</h1>
         <div className={styles.aboutcontent}>
         <div className={styles.content}> 
-          <p className={styles.paragraph}>I am a react developer with a tech enthusiast. I enjoy desinigng UI and implementing code to create amazing web apps.</p>
+          <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lacus eget diam tempor efficitur. Integer commodo mauris est, in ultrices massa cursus eu</p>
         </div>
         <div className={styles.imgcontainer}>
         <img className={styles.img} src={SvgLogo2} />

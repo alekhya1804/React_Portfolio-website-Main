@@ -74,6 +74,7 @@ backdrop-filter: blur( 10px );
 
 .hamburger{
   display: none;
+  z-index: 30;
 }
 
 @media (max-width: 425px){

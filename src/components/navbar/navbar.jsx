@@ -21,9 +21,7 @@ const NavBar = () => {
           
         </div>
          <MobileNav /> 
-        <div className={styles.hamburger}>
-        <Hamburger toggled={isOpen} toggle={setOpen} color="#14FFEC"/>
-        </div>
+        
       </div>
     </>
   )
