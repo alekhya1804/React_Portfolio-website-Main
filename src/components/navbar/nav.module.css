@@ -20,8 +20,10 @@ backdrop-filter: blur( 5px );
 .logo{
   flex: 1;
   margin-left: 20px;
-  color: rgb(13, 115, 119);
+  color:rgb(20, 255, 236) ;
   font-weight: 700;
+  font-size: 20px;
+  z-index: 30;
 }
 
 .navLinks{
@@ -47,13 +49,13 @@ backdrop-filter: blur( 5px );
   font-size: 14px;
   font-Weight: 700;
   width: 100%;
-  height: 100vh;
+  height: 100$;
   padding: 6rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: rgba( 33, 33, 33, 0.85 );
+  background: rgba( 33, 33, 33, .95 );
 box-shadow: 0 5px 1px 0 rgba(20, 255, 236, .5);
 backdrop-filter: blur( 10px );
 -webkit-backdrop-filter: blur( 10px );
