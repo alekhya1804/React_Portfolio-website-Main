@@ -111,6 +111,16 @@ textarea{
 .errorpara{
   font-weight: 700;
   font-size: 20px;
+color: rgba(255,255,255,.8);
+  background: #B20600;
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 32.5rem;
+}
+
+.successpara{
+  font-weight: 700;
+  font-size: 20px;
 color: rgb(33, 33, 33);
   background: rgb(20, 255, 236);
   margin-top: 2rem;
@@ -138,8 +148,12 @@ color: rgb(33, 33, 33);
 }
 
 @media (max-width: 425px){
-  textarea{
+  textarea {
     width: 14.3rem;
+  }
+  .successpara, .errorpara{
+  width: 14.3rem;
+    font-size: 16px;
   }
   .title{
     font-size: 24px;
@@ -166,7 +180,7 @@ color: rgb(33, 33, 33);
   form{
     margin-left: 2rem;
   }
-  textarea{
+  textarea, .successpara, .errorpara{
     width: 12.9rem;
   }
 }

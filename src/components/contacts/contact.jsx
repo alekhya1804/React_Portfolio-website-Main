@@ -55,7 +55,7 @@ const Contact = () => {
             <div className={styles.inputs2}>
               <textarea name="message" value={messageValue} placeholder="Message" col="40" row="20" onChange={e => setMessageValue(e.target.value)} />
               
-          {approved ? <p className={styles.errorpara}>Your message was sent!</p> : declined ?  <p className={styles.errorpara}>Something went wrong</p>: <button type="submit" className={styles.btn}>SEND<UilMessage className={styles.iconsend} color="#E2E2E2" size="30"/></button>}
+          {approved ? <p className={styles.successpara}>Your message was sent!</p> : declined ?  <p className={styles.errorpara}>Something went wrong</p>: <button type="submit" className={styles.btn}>SEND<UilMessage className={styles.iconsend} color="#E2E2E2" size="30"/></button>}
           
             </div>
           

@@ -6,6 +6,9 @@ import { Sling as Hamburger } from 'hamburger-react'
 
 const NavBar = () => {
   const [isOpen, setOpen] = useState(false)
+  const closeMenu = () => {
+    setOpen(false);
+  }
   return(
     <>
       <div className={styles.navbar}>
@@ -17,7 +20,7 @@ const NavBar = () => {
           <NavLists />
           
         </div>
-          {isOpen ? <MobileNav /> : null}
+         <MobileNav /> 
         <div className={styles.hamburger}>
         <Hamburger toggled={isOpen} toggle={setOpen} color="#14FFEC"/>
         </div>

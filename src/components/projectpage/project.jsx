@@ -7,7 +7,10 @@ const Project = () => {
       <div className={styles.projectcard}>
         <div className={styles.allinone}>
         <div className={styles.description}>
+          <div className={styles.contentdescription}>
+          <h1 className={styles.headtext}>React App</h1>
           <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lacus eget diam tempor efficitur. Integer commodo mauris est, in ultrices massa cursus eu</p>
+            </div>
         </div>
         <div className={styles.imagediv}>
         <img  className={styles.image}
@@ -24,7 +27,10 @@ const Project = () => {
       <div className={styles.projectcard}>
         <div className={styles.allinone}>
         <div className={styles.description}>
+          <div className={styles.contentdescription}>
+          <h1 className={styles.headtext}>React App</h1>
           <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lacus eget diam tempor efficitur. Integer commodo mauris est, in ultrices massa cursus eu</p>
+            </div>
         </div>
         
         
@@ -43,7 +49,10 @@ const Project = () => {
       <div className={styles.projectcard}>
         <div className={styles.allinone}>
         <div className={styles.description}>
+          <div className={styles.contentdescription}>
+          <h1 className={styles.headtext}>React App</h1>
           <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lacus eget diam tempor efficitur. Integer commodo mauris est, in ultrices massa cursus eu</p>
+            </div>
         </div>
         <div className={styles.imagediv}>
         <img  className={styles.image}

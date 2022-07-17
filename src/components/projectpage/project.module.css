@@ -49,14 +49,45 @@
   
 }
 
-.paragraph{
+.headtext{
+/*   color: rgb(13, 115, 119); */
+  font-size: 26px;
+  animation: neonAnim 2s alternate-reverse infinite;
+  color: #14FFEC;
+}
+
+@keyframes neonAnim {
+    from {
+        text-shadow:
+          0 0 20px rgba(20, 255, 236, .7),
+          0 0 20px rgba(20, 255, 236, .7),
+          0 0 20px rgba(20, 255, 236, .7);
+      }
+      to {
+        text-shadow:
+          0 0 5px rgba(20, 255, 236, .7),
+          0 0 5px rgba(20, 255, 236, .7),
+          0 0 5px rgba(20, 255, 236, .7);
+      }
+}
+
+.contentdescription{
   width: 20rem;
   height: 10rem;
+  padding: 2rem;
   background: rgb(50, 50, 50);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.paragraph{
+  
+  
 /*   border-radius: 20px; */
   color: rgba(255,255,255,.8);
   font-size: 14px;
-  padding: 2rem;
+  
   font-weight: 700;
 }
 
@@ -143,9 +174,9 @@
 
   
   
-  .paragraph{
+  .contentdescription{
      width: 10rem;
-  height: 10rem;
+  height: 15rem;
     
   }
   .description{
