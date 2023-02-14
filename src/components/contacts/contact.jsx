@@ -63,12 +63,12 @@ const Contact = () => {
 
           <div className={styles.mailto}>
             <h2 className={styles.mailhead}>Email</h2>
-            <p className={styles.maillink}>elnatansamuel22@gmail.com</p>
+            <p className={styles.maillink}>muttireddyalekhya@gmail.com</p>
             <h2 className={styles.mailhead}>Link up</h2>
             <div className={styles.icons}>
               
-              <a target="_blank" className={styles.linkicon} href="https://github.com/ElnatanSamuel"><UilGithub  size="30" color="#14FFEC"/></a>
-              <a target="_blank" className={styles.linkicon} href="https://www.linkedin.com/in/elnatan-samuel-b3473b245/"><UilLinkedinAlt size="30" color="#14FFEC" /></a>
+              <a target="_blank" className={styles.linkicon} href="https://github.com/alekhya1804/React_Portfolio-website-Main"><UilGithub  size="30" color="#14FFEC"/></a>
+              <a target="_blank" className={styles.linkicon} href="https://www.linkedin.com/in/alekhya-reddy-9a970816a/"><UilLinkedinAlt size="30" color="#14FFEC" /></a>
             </div>
           </div>
           

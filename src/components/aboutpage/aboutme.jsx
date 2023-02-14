@@ -10,7 +10,7 @@ const AboutMe = () => {
         <h1 className={styles.titlehead}>About Me</h1>
         <div className={styles.aboutcontent}>
         <div className={styles.content}> 
-          <p className={styles.paragraph}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu lacus eget diam tempor efficitur. Integer commodo mauris est, in ultrices massa cursus eu</p>
+          <p className={styles.paragraph}>I am Alekhya Reddy. I am from Hyderabad, completed my post-graduation in MCA computer science, and completed a course and became certified in web development in alphabeZ. I have created and worked on a few web projects, and this is one of them. </p>
         </div>
         <div className={styles.imgcontainer}>
         <img className={styles.img} src={SvgLogo2} />

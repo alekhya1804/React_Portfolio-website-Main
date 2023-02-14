@@ -11,6 +11,7 @@ const Skills = () => {
           <li className={styles.list}>Bootstrap</li>
           <li className={styles.list}>JavaScript</li>
           <li className={styles.list}>React</li>
+          <li className={styles.list}>Back-end Development</li>
         </ul>
       </section>
     </>

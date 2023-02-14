@@ -6,7 +6,7 @@ const HomePage = () => {
   return(
     <>
       <div className={styles.homepage}>
-        <h1 className={styles.myname}>Alekhya Reddy</h1>
+        <h1 className={styles.myname}>Alekhya_Reddy</h1>
         <p className={styles.paragraph}>Front-end web developer</p>
         <div className={styles.btn}>
           <a target="_blank" href={ResumePDF} download="Alekhya_Reddy.pdf"><button className={styles.btn1}>Resume</button></a>
